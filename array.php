@@ -35,4 +35,33 @@ echo "<pre>";
 
 print_r($name);
 
+echo "<hr>";
+
+$name = [
+    'mehedi',
+    'bappy',
+    'himel'
+];
+
+for($i=0;$i<count($student);$i++){
+    echo $name[$i]." ";
+}
+
+echo "<hr>";
+
+//foreach 
+
+foreach($name as $student){
+    echo $student." ";
+}
+
+//foreach with index
+
+echo "<hr>";
+foreach($name as $index=>$student){
+    echo $index." " .$student." ";
+}
+
+
+
 ?>
